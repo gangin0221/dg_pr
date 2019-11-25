@@ -13,8 +13,8 @@
         <activity android:name=".education_activity" />
         <activity android:name=".recruitment_activity" />
         <activity android:name=".inquiry_activity" />
-        <activity android:name=".inro_activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".intro_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

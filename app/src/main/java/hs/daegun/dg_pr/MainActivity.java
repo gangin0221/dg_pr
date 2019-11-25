@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 public static final int Request_code_Intro=1;
 public static final int Request_code_Inquiry=2;
-public static final int Request_code_hompage=3;
+public static final int Request_code_homepage=3;
 public static final int Request_code_recruit=4;
 public static final int Request_code_edu=5;
 
@@ -23,7 +23,7 @@ public static final int Request_code_edu=5;
         button_intro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),inro_activity.class);
+                Intent intent=new Intent(getApplicationContext(),intro_activity.class);
                 startActivityForResult(intent,Request_code_Intro);
 
             }
@@ -44,7 +44,7 @@ public static final int Request_code_edu=5;
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(),homepage_activity.class);
-                startActivityForResult(intent,Request_code_hompage);
+                startActivityForResult(intent,Request_code_homepage);
 
             }
         });
@@ -71,7 +71,7 @@ public static final int Request_code_edu=5;
 
     }
     public void click_intro(View v){
-    Intent intent=new Intent(getApplication(),inro_activity.class);
+    Intent intent=new Intent(getApplication(),intro_activity.class);
     startActivity(intent);
     }
 
