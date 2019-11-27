@@ -9,6 +9,6 @@ public class education_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inquiry_activity);
+        setContentView(R.layout.activity_education_activity);
     }
 }
