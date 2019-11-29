@@ -6,18 +6,27 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
-//pixlr
+import androidx.viewpager.widget.ViewPager;
+
 public class MainActivity extends AppCompatActivity {
+
+    Adapter adapter;
+    ViewPager viewPager;
 public static final int Request_code_Intro=1;
 public static final int Request_code_Inquiry=2;
 public static final int Request_code_homepage=3;
 public static final int Request_code_recruit=4;
 public static final int Request_code_edu=5;
+//엑티비티간 전환을 위한 변수들
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        viewPager=(ViewPager)findViewById(R.id.view);
+        adapter= new Adapter(this);
+        viewPager.setAdapter(adapter);
 
         ImageButton button_intro=findViewById(R.id.intro_button);
         button_intro.setOnClickListener(new View.OnClickListener() {
