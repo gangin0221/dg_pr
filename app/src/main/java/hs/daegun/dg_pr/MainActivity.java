@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//pixlr
 public class MainActivity extends AppCompatActivity {
 public static final int Request_code_Intro=1;
 public static final int Request_code_Inquiry=2;
