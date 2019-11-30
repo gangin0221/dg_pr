@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="108dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="180dp"
         android:background="@android:color/transparent"
         android:onClick="click_intro"
         android:src="@drawable/info"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
         android:layout_marginRight="60dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="100dp"
         android:background="@android:color/transparent"
         android:onClick="click_inquiry"
         android:src="@drawable/inquiry"
@@ -41,7 +41,7 @@
         android:id="@+id/homepage_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="100dp"
         android:background="@android:color/transparent"
         android:onClick="click_homepage"
         android:src="@drawable/home"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="100dp"
         android:background="@android:color/transparent"
         android:onClick="click_recruit"
         android:src="@drawable/recruit"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="112dp"
         android:layout_marginRight="100dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="180dp"
         android:background="@android:color/transparent"
         android:onClick="click_edu"
         android:src="@drawable/edu"
@@ -85,31 +85,36 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/logo" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view"
-        android:layout_width="409dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="90dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/labal" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

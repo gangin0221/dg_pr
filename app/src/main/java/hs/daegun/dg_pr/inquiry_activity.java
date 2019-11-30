@@ -15,10 +15,10 @@ public class inquiry_activity extends AppCompatActivity {
         setContentView(R.layout.activity_inquiry_activity);
     }
 
-    public void onclicked1(View v){
-        Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.daegun.hs.kr/user/mobile/index.do"));
-        startActivity(intent);
-    }
+//    public void onclicked1(View v){
+//        Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.daegun.hs.kr/user/mobile/index.do"));
+//        startActivity(intent);
+//    }
 
     public void onclicked2(View v){
         Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-6764-0807"));
