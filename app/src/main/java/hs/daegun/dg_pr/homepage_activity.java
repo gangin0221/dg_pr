@@ -19,4 +19,9 @@ public class homepage_activity extends AppCompatActivity {
         Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.daegun.hs.kr/user/mobile/index.do"));
         startActivity(intent);
     }
+
+    public void onclicked2(View v){
+        Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCVIXQdTfSw51h506LO4bJDw"));
+        startActivity(intent);
+    }
 }
